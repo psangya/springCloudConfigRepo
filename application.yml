@@ -1,0 +1,18 @@
+app:
+  name : My app
+  description : Welcome to {app.name}
+  
+my:
+  greeting : Hello World from Spring Cloud Config
+  list:
+    value : One,Two,Three,Four,Five
+  
+db:
+  connection : "{connectoinString:'http/abc.com:5034', userName:'root',password:'openDB'}"
+  host : 127.0.0.1
+  port : 1200
+  
+server:
+  port : 8184
+
+
